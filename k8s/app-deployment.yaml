@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: asr-flask
-        # europe-southwest1-docker.pkg.dev/asr-p4-asanchez/asr-registry/asr-flask:v1 se sustituye por la URI de tu imagen al aplicar (ver README)
-        image: europe-southwest1-docker.pkg.dev/asr-p4-asanchez/asr-registry/asr-flask:v1
+        # registry.k8s.io/hpa-example se sustituye por la URI de tu imagen al aplicar (ver README)
+        image: registry.k8s.io/hpa-example
         ports:
         - containerPort: 8080
         env:
