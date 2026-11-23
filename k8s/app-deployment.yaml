@@ -5,7 +5,7 @@ metadata:
   labels:
     app: asr-flask
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: asr-flask
